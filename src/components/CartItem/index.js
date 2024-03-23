@@ -74,7 +74,6 @@ const CartItem = props => (
             type="button"
             onClick={onRemoveCartItem}
             aria-label="remove"
-            data-testid="remove"
           >
             <AiFillCloseCircle color="#616E7C" size={20} />
           </button>
